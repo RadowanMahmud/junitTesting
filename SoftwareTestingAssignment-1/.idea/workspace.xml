@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c3e04ed-df04-4324-94c8-6a8ec1c884eb" name="Default Changelist" comment="" />
+    <list default="true" id="4c3e04ed-df04-4324-94c8-6a8ec1c884eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/CaculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.~lock.report.csv#" beforeDir="false" afterPath="$PROJECT_DIR$/../.~lock.report.csv#" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../report.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../report.csv" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +23,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Caculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="120">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding>
+                <element signature="e#80#81#0" expanded="true" />
+                <element signature="e#97#98#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/CaculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="1233" column="5" selection-start-line="1233" selection-start-column="5" selection-end-line="1233" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -33,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/GradeCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
+            <state relative-caret-position="1344">
               <caret line="4592" column="5" selection-start-line="4592" selection-start-column="5" selection-end-line="4592" selection-end-column="5" />
             </state>
           </provider>
@@ -74,7 +92,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -83,26 +101,16 @@
         <option value="$PROJECT_DIR$/src/GradeCalculatorTestTest.java" />
         <option value="$PROJECT_DIR$/src/GradeCalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/GradeCalculator.java" />
-        <option value="$PROJECT_DIR$/tests/CaculatorTest.java" />
         <option value="$PROJECT_DIR$/tests/GradeCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/tests/CaculatorTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/SoftwareTestingAssignment-1.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="2359" />
-    <option name="y" value="110" />
-    <option name="width" value="887" />
-    <option name="height" value="764" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="467" />
+    <option name="y" value="146" />
+    <option name="width" value="877" />
+    <option name="height" value="771" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -173,10 +181,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GradeCalculatorTest">
+  <component name="RunManager" selected="JUnit.CaculatorTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="SoftwareTestingAssignment-1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareTestingAssignment-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CaculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,6 +209,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CaculatorTest" />
         <item itemvalue="JUnit.GradeCalculatorTest" />
         <item itemvalue="Application.Main" />
       </list>
@@ -211,12 +229,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GradeCalculatorTest - 2021.01.24 at 19h 17m 42s.xml">
-      <configuration name="GradeCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GradeCalculatorTest - 2021.01.24 at 19h 35m 16s.xml">
-      <configuration name="GradeCalculatorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GradeCalculatorTest - 2021.01.24 at 19h 53m 35s.xml">
       <configuration name="GradeCalculatorTest" configurationId="JUnit" />
     </history-entry>
@@ -241,12 +253,18 @@
     <history-entry file="GradeCalculatorTest - 2021.01.25 at 02h 09m 56s.xml">
       <configuration name="GradeCalculatorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GradeCalculatorTest - 2021.01.26 at 13h 48m 00s.xml">
+      <configuration name="GradeCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CaculatorTest - 2021.01.26 at 14h 46m 07s.xml">
+      <configuration name="CaculatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="72" y="27" width="1848" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24279615" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25249723" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -255,7 +273,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28072035" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.348964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993644" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -263,7 +281,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32944915" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32944915" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32944915" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -277,18 +295,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/GradeCalculatorTestTest.java" />
     <entry file="file://$PROJECT_DIR$/src/GradeCalculatorTest.java" />
-    <entry file="file://$PROJECT_DIR$/tests/CaculatorTest.java" />
     <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Caculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -319,8 +329,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/GradeCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
+        <state relative-caret-position="1344">
           <caret line="4592" column="5" selection-start-line="4592" selection-start-column="5" selection-end-line="4592" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Caculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#80#81#0" expanded="true" />
+            <element signature="e#97#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CaculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="1233" column="5" selection-start-line="1233" selection-start-column="5" selection-end-line="1233" selection-end-column="5" />
         </state>
       </provider>
     </entry>
