@@ -32,12 +32,12 @@ int main(){
 	char ch;
 	string s;
 	int id,a,b,c;
-	if(readFile("bvc.csv",ifile) && openFile("methods.java",ofile) && openFile("bvc_data.csv",ofileresult)){
+	if(readFile("worst.csv",ifile) && openFile("methods.java",ofile) && openFile("worst_data.csv",ofileresult)){
 	//cout<<id<<" calling"<<endl; 
 	
 		while(ifile>>id>>ch>>a>>ch>>b){
 			ofile<<"@Test\n";
-			ofile<<"public void divide_BVC"<<id<<" () {"<<endl;
+			ofile<<"public void divide_worst"<<id<<" () {"<<endl;
 			ofile<<"\tCaculator c = new Caculator();"<<endl;
 			ofile<<"\tint result = c.divide("<<a<<","<<b<<");"<<endl;
 			ofile<<"\tint expected = "<<divide(a,b)<<";"<<endl;

@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4c3e04ed-df04-4324-94c8-6a8ec1c884eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.~lock.report.csv#" beforeDir="false" afterPath="$PROJECT_DIR$/../.~lock.report.csv#" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calcultor test/substract/add1_junit.CPP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calcultor test/divide/substract_junit.CPP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calcultor test/substract/substract_junit.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../Calcultor test/substract/substract_junit.CPP" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/CaculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CaculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../report.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../report.csv" afterDir="false" />
     </list>
@@ -23,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Caculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="345">
+              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="e#80#81#0" expanded="true" />
                 <element signature="e#97#98#0" expanded="true" />
@@ -36,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/CaculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="1228" column="33" selection-start-line="1228" selection-start-column="33" selection-end-line="1228" selection-end-column="33" />
+            <state relative-caret-position="120">
+              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -45,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GradeCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="345">
+              <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -54,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/GradeCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1344">
-              <caret line="4592" column="5" selection-start-line="4592" selection-start-column="5" selection-end-line="4592" selection-end-column="5" />
+            <state relative-caret-position="-909">
+              <caret line="151" column="26" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -91,6 +92,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getGp</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -107,10 +113,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="467" />
-    <option name="y" value="146" />
-    <option name="width" value="877" />
-    <option name="height" value="771" />
+    <option name="x" value="1920" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -261,10 +266,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="72" y="27" width="1848" height="1053" extended-state="6" />
+    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25249723" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24279615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -273,7 +278,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.348964" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33898306" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993644" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -302,13 +307,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GradeCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/reflect/Method.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
@@ -327,17 +325,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/GradeCalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/GradeCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="4592" column="5" selection-start-line="4592" selection-start-column="5" selection-end-line="4592" selection-end-column="5" />
+        <state relative-caret-position="345">
+          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Caculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="345">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="e#80#81#0" expanded="true" />
             <element signature="e#97#98#0" expanded="true" />
@@ -345,10 +343,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/GradeCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-909">
+          <caret line="151" column="26" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/CaculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="1228" column="33" selection-start-line="1228" selection-start-column="33" selection-end-line="1228" selection-end-column="33" />
+        <state relative-caret-position="120">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
         </state>
       </provider>
     </entry>

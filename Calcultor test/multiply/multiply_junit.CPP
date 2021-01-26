@@ -4,10 +4,9 @@ using namespace std;
 
 
 //right function for testing grades
-int subtract(int a, int b) {
-		return a-b;
+int multiply(int a, int b) {
+		return a*b;
 	}
-
 bool openFile(string fileName,ofstream &ofile){
 	ofile.open(fileName);
 	if(!ofile.is_open()) {
@@ -37,14 +36,14 @@ int main(){
 	
 		while(ifile>>id>>ch>>a>>ch>>b){
 			ofile<<"@Test\n";
-			ofile<<"public void subtract_BVC"<<id<<" () {"<<endl;
+			ofile<<"public void multiplyBVC"<<id<<" () {"<<endl;
 			ofile<<"\tCaculator c = new Caculator();"<<endl;
-			ofile<<"\tint result = c.subtract("<<a<<","<<b<<");"<<endl;
-			ofile<<"\tint expected = "<<subtract(a,b)<<";"<<endl;
+			ofile<<"\tint result = c.divide("<<a<<","<<b<<");"<<endl;
+			ofile<<"\tint expected = "<<multiply(a,b)<<";"<<endl;
 			ofile<<"\tassertEquals(expected,result);"<<endl;
 			ofile<<"}"<<endl;
 			
-			ofileresult<<id<<","<<a<<","<<b<<","<<subtract(a,b)<<","<<subtract(a,b)<<","<<"Success"<<endl;
+			ofileresult<<id<<","<<a<<","<<b<<","<<multiply(a,b)<<","<<multiply(a,b)<<","<<"Success"<<endl;
 			
 		}
 	}

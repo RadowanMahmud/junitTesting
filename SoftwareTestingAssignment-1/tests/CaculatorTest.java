@@ -7,15 +7,10 @@ public class CaculatorTest {
 
     @Test
     public void add2() {
-    }
-
-
-    @Test
-    public void divide() {
-    }
-
-    @Test
-    public void multiply() {
+        Caculator c = new Caculator();
+        int result = c.add(-1000,2000);
+        int expected = 1000;
+        assertEquals(expected,result);
     }
 
     @Test
@@ -1463,6 +1458,424 @@ public class CaculatorTest {
         Caculator c = new Caculator();
         int result = c.subtract(150,350);
         int expected = -200;
+        assertEquals(expected,result);
+    }
+
+    ///////////divide
+    @Test
+    public void divide_BVC10000 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,4);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_BVC10001 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_BVC10002 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,6);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_BVC10003 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_BVC10004 () {
+        Caculator c = new Caculator();
+        int result = c.divide(2,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_BVC10005 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_BVC10006 () {
+        Caculator c = new Caculator();
+        int result = c.divide(4,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_BVC10007 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_BVC10008 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+
+    @Test
+    public void divide_worst1 () {
+        Caculator c = new Caculator();
+        int result = c.divide(2,4);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst2 () {
+        Caculator c = new Caculator();
+        int result = c.divide(2,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst3 () {
+        Caculator c = new Caculator();
+        int result = c.divide(2,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst4 () {
+        Caculator c = new Caculator();
+        int result = c.divide(2,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst5 () {
+        Caculator c = new Caculator();
+        int result = c.divide(2,6);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst6 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,4);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst7 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst8 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst9 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst10 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,6);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst11 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,4);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst12 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst13 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst14 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst15 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,6);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst16 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,4);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst17 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst18 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst19 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst20 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,6);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst21 () {
+        Caculator c = new Caculator();
+        int result = c.divide(4,4);
+        int expected = 1;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst22 () {
+        Caculator c = new Caculator();
+        int result = c.divide(4,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst23 () {
+        Caculator c = new Caculator();
+        int result = c.divide(4,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst24 () {
+        Caculator c = new Caculator();
+        int result = c.divide(4,5);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void divide_worst25 () {
+        Caculator c = new Caculator();
+        int result = c.divide(4,6);
+        int expected = 0;
+        assertEquals(expected,result);
+    }
+
+    ////////////multiply
+    @Test
+    public void multiplyworst1 () {
+        Caculator c = new Caculator();
+        int result = c.divide(2,4);
+        int expected = 8;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst2 () {
+        Caculator c = new Caculator();
+        int result = c.divide(2,5);
+        int expected = 10;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst3 () {
+        Caculator c = new Caculator();
+        int result = c.divide(2,5);
+        int expected = 10;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst4 () {
+        Caculator c = new Caculator();
+        int result = c.divide(2,5);
+        int expected = 10;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst5 () {
+        Caculator c = new Caculator();
+        int result = c.divide(2,6);
+        int expected = 12;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst6 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,4);
+        int expected = 12;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst7 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 15;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst8 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 15;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst9 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 15;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst10 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,6);
+        int expected = 18;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst11 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,4);
+        int expected = 12;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst12 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 15;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst13 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 15;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst14 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 15;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst15 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,6);
+        int expected = 18;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst16 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,4);
+        int expected = 12;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst17 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 15;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst18 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 15;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst19 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,5);
+        int expected = 15;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst20 () {
+        Caculator c = new Caculator();
+        int result = c.divide(3,6);
+        int expected = 18;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst21 () {
+        Caculator c = new Caculator();
+        int result = c.divide(4,4);
+        int expected = 16;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst22 () {
+        Caculator c = new Caculator();
+        int result = c.divide(4,5);
+        int expected = 20;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst23 () {
+        Caculator c = new Caculator();
+        int result = c.divide(4,5);
+        int expected = 20;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst24 () {
+        Caculator c = new Caculator();
+        int result = c.divide(4,5);
+        int expected = 20;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void multiplyworst25 () {
+        Caculator c = new Caculator();
+        int result = c.divide(4,6);
+        int expected = 24;
         assertEquals(expected,result);
     }
 }
