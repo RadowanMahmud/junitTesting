@@ -38,7 +38,7 @@ int main(){
 			ofile<<"@Test\n";
 			ofile<<"public void multiplyBVC"<<id<<" () {"<<endl;
 			ofile<<"\tCaculator c = new Caculator();"<<endl;
-			ofile<<"\tint result = c.divide("<<a<<","<<b<<");"<<endl;
+			ofile<<"\tint result = c. multiply("<<a<<","<<b<<");"<<endl;
 			ofile<<"\tint expected = "<<multiply(a,b)<<";"<<endl;
 			ofile<<"\tassertEquals(expected,result);"<<endl;
 			ofile<<"}"<<endl;
