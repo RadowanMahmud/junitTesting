@@ -6,16 +6,9 @@ public class CaculatorTest {
 
 
     @Test
-    public void add1() {
-    }
-
-    @Test
     public void add2() {
     }
 
-    @Test
-    public void subtract() {
-    }
 
     @Test
     public void divide() {
@@ -1230,6 +1223,246 @@ public class CaculatorTest {
         Caculator c = new Caculator();
         int result = c.add(100,300,900);
         int expected = 1300;
+        assertEquals(expected,result);
+    }
+
+    ////////////////////substract
+    @Test
+    public void subtract_worstCase1 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(100,300);
+        int expected = -200;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase2 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(100,301);
+        int expected = -201;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase3 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(100,350);
+        int expected = -250;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase4 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(100,399);
+        int expected = -299;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase5 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(100,400);
+        int expected = -300;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase6 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(101,300);
+        int expected = -199;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase7 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(101,301);
+        int expected = -200;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase8 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(101,350);
+        int expected = -249;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase9 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(101,399);
+        int expected = -298;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase10 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(101,400);
+        int expected = -299;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase11 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(150,300);
+        int expected = -150;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase12 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(150,301);
+        int expected = -151;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase13 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(150,350);
+        int expected = -200;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase14 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(150,399);
+        int expected = -249;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase15 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(150,400);
+        int expected = -250;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase16 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(199,300);
+        int expected = -101;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase17 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(199,301);
+        int expected = -102;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase18 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(199,350);
+        int expected = -151;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase19 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(199,399);
+        int expected = -200;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase20 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(199,400);
+        int expected = -201;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase21 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(200,300);
+        int expected = -100;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase22 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(200,301);
+        int expected = -101;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase23 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(200,350);
+        int expected = -150;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase24 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(200,399);
+        int expected = -199;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_worstCase25 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(200,400);
+        int expected = -200;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_BVC10000 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(150,300);
+        int expected = -150;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_BVC10001 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(150,301);
+        int expected = -151;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_BVC10002 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(150,400);
+        int expected = -250;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_BVC10003 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(150,399);
+        int expected = -249;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_BVC10004 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(100,350);
+        int expected = -250;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_BVC10005 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(101,350);
+        int expected = -249;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_BVC10006 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(200,350);
+        int expected = -150;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_BVC10007 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(199,350);
+        int expected = -151;
+        assertEquals(expected,result);
+    }
+    @Test
+    public void subtract_BVC10008 () {
+        Caculator c = new Caculator();
+        int result = c.subtract(150,350);
+        int expected = -200;
         assertEquals(expected,result);
     }
 }
